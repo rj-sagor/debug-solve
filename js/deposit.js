@@ -13,6 +13,9 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
     1. get previous deposit total by id
 
     */
+   function blank(){
+    
+   }
   const previousDepositTotal =getTextElementValueById('deposit-total') 
   console.log(previousDepositTotal)
   // calculate new deposit total
